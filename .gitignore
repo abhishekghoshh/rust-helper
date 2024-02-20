@@ -1,2 +1,4 @@
 */target/*
 ~*.docx
+.idea
+/rust-lang/*/target/
