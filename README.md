@@ -53,6 +53,9 @@ cargo check
 cargo build --release
 # This command will create an executable in target/release instead of target/debug. 
 # The optimizations make your Rust code run faster, but turning them on lengthens the time it takes for your program to compile.
+
+# Add a new dependency in the cargo.toml under dependency section, and build the project
+cargo build
 ```
 
 ## Rust Lang Book
