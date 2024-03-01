@@ -1,4 +1,4 @@
-# Rust learning by youtube
+# Rust learning by YouTube
 
 
 #### Introduction

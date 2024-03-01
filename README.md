@@ -5,6 +5,15 @@
 - [rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
 
 
+
+#### Why rust is safe
+- [PRESS RELEASE: Future Software Should Be Memory Safe](https://www.whitehouse.gov/oncd/briefing-room/2024/02/26/press-release-technical-report/)
+  - [A PATH TOWARD SECURE AND MEASURABLE SOFTWARE](https://www.whitehouse.gov/wp-content/uploads/2024/02/Final-ONCD-Technical-Report.pdf)
+  - [white house issues report that Rust is superior.](https://www.youtube.com/watch?v=T4ZUMvALdKI)
+  - [Rust Recommended By White House??](https://www.youtube.com/watch?v=0BdePS7dx1I)
+
+
+
 #### To install rust use following command
 ```
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
