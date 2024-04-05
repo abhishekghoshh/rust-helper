@@ -1,18 +1,27 @@
 # Rust Helper
 
-#### Tutorial list:
+## Tutorial list:
 - [rust lang book](https://doc.rust-lang.org/stable/book/title-page.html)
 - [rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
 
 
+## Youtube 
+- **playlist**
+  - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
 
-#### Why rust is safe
-- [PRESS RELEASE: Future Software Should Be Memory Safe](https://www.whitehouse.gov/oncd/briefing-room/2024/02/26/press-release-technical-report/)
-  - [A PATH TOWARD SECURE AND MEASURABLE SOFTWARE](https://www.whitehouse.gov/wp-content/uploads/2024/02/Final-ONCD-Technical-Report.pdf)
-  - [white house issues report that Rust is superior.](https://www.youtube.com/watch?v=T4ZUMvALdKI)
-  - [Rust Recommended By White House??](https://www.youtube.com/watch?v=0BdePS7dx1I)
+- **Why rust is safe**
+  - [PRESS RELEASE: Future Software Should Be Memory Safe](https://www.whitehouse.gov/oncd/briefing-room/2024/02/26/press-release-technical-report/)
+    - [A PATH TOWARD SECURE AND MEASURABLE SOFTWARE](https://www.whitehouse.gov/wp-content/uploads/2024/02/Final-ONCD-Technical-Report.pdf)
+    - [white house issues report that Rust is superior.](https://www.youtube.com/watch?v=T4ZUMvALdKI)
+    - [Rust Recommended By White House??](https://www.youtube.com/watch?v=0BdePS7dx1I)
 
+- **others**
+  - [Rust YouTubers Tier List](https://www.youtube.com/watch?v=t6eaP2AjdyA)
 
+## Udemy
+- [Ultimate Rust Crash Course](https://www.udemy.com/course/ultimate-rust-crash-course)
+- [Ultimate Rust 2: Intermediate Concepts](https://www.udemy.com/course/ultimate-rust-2)
+- [Learn Rust by Building Real Applications](https://www.udemy.com/course/rust-fundamentals)
 
 #### To install rust use following command
 ```
