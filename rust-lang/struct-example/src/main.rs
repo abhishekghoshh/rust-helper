@@ -4,9 +4,6 @@ struct Rectangle {
     height: u32,
 }
 
-#[derive(Debug)]
-struct Dimension(i32, i32);
-
 impl Rectangle {
     fn area(&self) -> u32 {
         self.height * self.width
@@ -19,13 +16,60 @@ impl Rectangle {
 
 impl Rectangle {
     fn square(side: u32) -> Rectangle {
-        return Rectangle {
+        Rectangle {
             height: side,
             width: side,
-        };
+        }
     }
 }
 
+#[cfg(test)]
+mod rectangle_tests {
+    use super::*;
+
+    #[test]
+    fn test_area() {
+        let rect = Rectangle {
+            width: 30,
+            height: 50,
+        };
+        assert_eq!(rect.area(), 1500);
+    }
+
+    #[test]
+    fn test_clear() {
+        let mut rect = Rectangle {
+            width: 30,
+            height: 50,
+        };
+        rect.clear();
+        assert_eq!(rect.width, 0);
+        assert_eq!(rect.height, 0);
+    }
+
+    #[test]
+    fn test_square() {
+        let square = Rectangle::square(10);
+        assert_eq!(square.area(), 100);
+        assert_eq!(square.width, 10);
+        assert_eq!(square.height, 10);
+    }
+}
+
+#[derive(Debug)]
+struct Dimension(i32, i32);
+
+impl Dimension {
+    fn distance(&self) -> i32 {
+        self.0 * self.0 + self.1 * self.1
+    }
+    fn distance_from(&self, dimension: &Dimension) -> f32 {
+        let delta_x = self.0 - dimension.1;
+        let delta_y = self.1 - dimension.1;
+        let sqr_distance: f32 = (delta_x * delta_x + delta_y * delta_y) as f32;
+        sqr_distance.sqrt()
+    }
+}
 
 fn main() {
     let rect = Rectangle {
@@ -53,20 +97,11 @@ fn main() {
     let dimension: Dimension = Dimension(2, 2);
     println!("dimension is {:?}", dimension);
     println!("distance from 0 is {}", dimension.distance());
-    let anotherPoint = Dimension(-4, 3);
-    println!("distance from between {:?} and {:?} is {}",
-             dimension, anotherPoint, dimension.distanceFrom(&anotherPoint)
+    let another_point = Dimension(-4, 3);
+    println!(
+        "distance from between {:?} and {:?} is {}",
+        dimension,
+        another_point,
+        dimension.distance_from(&anotherPoint)
     );
-}
-
-impl Dimension {
-    fn distance(&self) -> i32 {
-        self.0 * self.0 + self.1 * self.1
-    }
-    fn distanceFrom(&self, dimension: &Dimension) -> f32 {
-        let delta_x = self.0 - dimension.1;
-        let delta_y = self.1 - dimension.1;
-        let sqr_distance: f32 = (delta_x * delta_x + delta_y * delta_y) as f32;
-        sqr_distance.sqrt()
-    }
 }
