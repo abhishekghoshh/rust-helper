@@ -1,8 +1,17 @@
 # Rust Helper
 
 ## Tutorial list:
-- [rust lang book](https://doc.rust-lang.org/stable/book/title-page.html)
+- [rust lang book](https://doc.rust-lang.org/book/)
 - [rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [Rust for Rustaceans](https://rust-for-rustaceans.com/)
+- [Rust in Action](./pdf/rustinaction.pdf)
+- [Zero To Production In Rust](./pdf/zero-to-production-in-rust-an-introduction-to-backend-development.pdf)
+- [Idiomatic Rust](https://www.manning.com/books/idiomatic-rust)
+- [Programming Rust: Fast, Safe Systems Development](./pdf/Programming%20Rust%202nd%20Edition.pdf)
+- [Rust Atomics and Locks](https://marabos.nl/atomics/)
+- [Black Hat Rust](https://kerkour.com/black-hat-rust)
+- [Programming WebAssembly with Rust: Unified Development for Web, Mobile, and Embedded Applications](./pdf/hoffmanWasmRust.pdf)
+- [Comprehensive Rust](./pdf/comprehensive-rust.pdf)
 
 
 ## Youtube 
