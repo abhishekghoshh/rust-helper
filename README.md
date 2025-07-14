@@ -26,6 +26,7 @@
 
 - **others**
   - [Rust YouTubers Tier List](https://www.youtube.com/watch?v=t6eaP2AjdyA)
+  - [Why your Rust projects won't land you a job (the 5 levels of Rust projects)](https://www.youtube.com/watch?v=p-Uc1C2pHuA)
 
 ## Udemy
 - [Ultimate Rust Crash Course](https://www.udemy.com/course/ultimate-rust-crash-course)
