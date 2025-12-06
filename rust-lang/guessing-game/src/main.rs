@@ -10,7 +10,7 @@ fn main() {
 // but we need a loop to ask for the input until it is the random number
 pub fn guess_one_number() {
     // it will generate a number from 1 to 100
-    let random_number = rand::thread_rng().gen_range(1..=100);
+    let random_number = rand::rng().random_range(1..=100);
 
     println!("guessing game");
     println!("Guess a number from 1 to 100 :");
@@ -34,7 +34,7 @@ pub fn guess_one_number() {
 }
 
 pub fn guess_until_random() {
-    let random_number = rand::thread_rng().gen_range(1..=100);
+    let random_number = rand::rng().random_range(1..=100);
     loop {
         println!("welcome to guessing game");
         println!("please enter a number : ");
