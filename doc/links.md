@@ -1,9 +1,14 @@
 # Rust Helper links
 
-## Blogs and PDF
+
+## Official Documentations
 
 - [rust lang book](https://doc.rust-lang.org/book/)
 - [rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [Learn Rust Programming](https://academy.jetbrains.com/course/16631)
+
+## Books
+
 - [Rust for Rustaceans](https://rust-for-rustaceans.com/)
 - [Rust in Action](./pdf/rustinaction.pdf)
 - [Zero To Production In Rust](./pdf/zero-to-production-in-rust-an-introduction-to-backend-development.pdf)
@@ -15,19 +20,28 @@
 - [Comprehensive Rust](./pdf/comprehensive-rust.pdf)
 
 
+## Github Links
+
+- [Zero To Production In Rust](https://github.com/LukeMathWalker/zero-to-production)
+- [Rust Atomics and Locks](https://github.com/mind1949/rustatomicsandlocks?tab=readme-ov-file)
+- [rust-atomics-and-locks](https://github.com/m-ou-se/rust-atomics-and-locks?tab=readme-ov-file)
+
 
 ## Youtube 
 
 ### Introduction
 
 - [Why Everyone's Switching to Rust (And Why You Shouldn't)](https://www.youtube.com/watch?v=meEXag1XCFw)
+- [How I'd learn Rust (If I could start over)](https://www.youtube.com/watch?v=DhiHhQimSa4)
+- [The rust arc begins: my 90-day roadmap to level up my skills](https://www.youtube.com/watch?v=lDjHzqYvQik)
 
 
-### Playlists
+### Tutorials
 
-- [The Rust Developer Roadmap (2026 Edition)](https://www.youtube.com/playlist?list=PLPoSdR46FgI5QaLuj6muwN2T8WHUfV3AF)
 - [Rust Programming Language](https://www.youtube.com/playlist?list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5)
 - [The Rust Lang Book](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
+- [The Rust Developer Roadmap (2026 Edition)](https://www.youtube.com/playlist?list=PLPoSdR46FgI5QaLuj6muwN2T8WHUfV3AF)
+
 
 
 ### Why rust is safe
@@ -39,8 +53,9 @@
 
 
 ### others
-  - [Rust YouTubers Tier List](https://www.youtube.com/watch?v=t6eaP2AjdyA)
-  - [Why your Rust projects won't land you a job (the 5 levels of Rust projects)](https://www.youtube.com/watch?v=p-Uc1C2pHuA)
+
+- [Rust YouTubers Tier List](https://www.youtube.com/watch?v=t6eaP2AjdyA)
+- [Why your Rust projects won't land you a job (the 5 levels of Rust projects)](https://www.youtube.com/watch?v=p-Uc1C2pHuA)
 
 
 
@@ -50,3 +65,10 @@
 - [Ultimate Rust Crash Course](https://www.udemy.com/course/ultimate-rust-crash-course)
 - [Ultimate Rust 2: Intermediate Concepts](https://www.udemy.com/course/ultimate-rust-2)
 - [Learn Rust by Building Real Applications](https://www.udemy.com/course/rust-fundamentals)
+
+
+
+## Rust libraries
+
+- [A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.](https://github.com/iced-rs/iced)
+- [Generate invoices from the command line.](https://github.com/maaslalani/invoice)
