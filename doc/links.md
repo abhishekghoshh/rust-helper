@@ -31,6 +31,8 @@
 
 ### Introduction
 
+- [Why I'm so bullish about Rust in 2026](https://www.youtube.com/watch?v=WhjEL817Onw)
+- [The Untold Story Of Rust](https://www.youtube.com/watch?v=P5fL1otNsfw)
 - [Why Everyone's Switching to Rust (And Why You Shouldn't)](https://www.youtube.com/watch?v=meEXag1XCFw)
 - [How I'd learn Rust (If I could start over)](https://www.youtube.com/watch?v=DhiHhQimSa4)
 - [The rust arc begins: my 90-day roadmap to level up my skills](https://www.youtube.com/watch?v=lDjHzqYvQik)
